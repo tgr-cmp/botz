@@ -12,7 +12,7 @@ global.config = {
     bot: {
         name: "CKPTW", // Nama bot
         prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i, // Karakter awalan perintah yang diizinkan
-        phoneNumber: "", // Nomor telepon bot (opsional jika menggunakan QR code)
+        phoneNumber: "62856405754212", // Nomor telepon bot (opsional jika menggunakan QR code)
         thumbnail: "https://repository-images.githubusercontent.com/753096396/84e76ef0-ba19-4c87-8ec2-ea803b097479", // Gambar thumbnail bot
         groupJid: "", // JID untuk group bot (opsional jika tidak menggunakan requireBotGroupMembership)
 
@@ -71,16 +71,16 @@ global.config = {
 
     // Informasi owner bot
     owner: {
-        name: "", // Nama owner bot
-        organization: "", // Nama organisasi owner bot
-        id: "", // Nomor telepon owner bot
+        name: "Ndaa", // Nama owner bot
+        organization: "LenzyORG", // Nama organisasi owner bot
+        id: "6285640575421", // Nomor telepon owner bot
         co: [""] // Nomor co-owner bot
     },
 
     // Stiker bot
     sticker: {
         packname: "", // Nama paket stiker
-        author: "github.com/itsreimau/ckptw-wabot" // Pembuat stiker
+        author: "LenzyBotz" // Pembuat stiker
     },
 
     // Sistem bot
@@ -98,7 +98,7 @@ global.config = {
         selfReply: true, // Bot balas pesan bot sendiri
         timeZone: "Asia/Jakarta", // Zona waktu bot
         useCoin: true, // Pakai koin
-        usePairingCode: false, // Pakai kode pairing untuk koneksi
+        usePairingCode: true, // Pakai kode pairing untuk koneksi
         useServer: false // Jalankan bot dengan server
     }
 };
